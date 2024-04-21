@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body {
+    
+    background:rgb(148, 151, 151);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.clock-container{
+    background: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 39px;
+    color: rgb(78, 103, 109);
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: relative;
+    text-shadow:3px 1px 4px rgba(0,0,0,.6);
+    border: 8px solid rgb(78, 103, 112);
+    box-shadow: 6px 6px 3px rgba(0,0,0,.4);
+    
+
+}
+.numbers div {
+    position: absolute;
+    
+}
+
+.numbers img {
+    width: 80px;
+    
+}
+ 
+ .img-1 {
+    width: 70px;
+    height: 30px;
+}
+
+#cfa {
+    width: 100px;
+    position:absolute;
+    left: 51%;
+    top: 85px;
+    transform: translate(-50%);
+    z-index: 3;
+   
+}
+
+.twel {
+    top: 13px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.one {
+    top: 50px;
+    right: 16%;
+    transform: translate(-18%)
+}
+
+.two {
+    top: 120px;
+    right: 9%;
+   
+}
+.three{
+    right: 8px;
+    bottom:50%;
+    transform:translate(-50%)
+}
+
+.four {
+    top: 255px;
+    right: 1%;
+    transform: translate(-18%)
+}
+
+.five {
+    top: 350px;
+    right: 16%;
+    transform: translate(-18%)
+}
+
+.six{
+    bottom: 10px;
+    left: 50%;
+    transform:translate(-50%);
+}
+
+.sev {
+    top: 350px;
+    left: 21%;
+    transform: translate(-18%)
+}
+.egt {
+    top: 255px;
+    left: 9%;
+    transform: translate(-18%)
+}
+
+
+.nine {
+    left: 26px;
+    bottom: 50%;
+    transform: translate(-50%)
+}
+
+.ele {
+    top: 50px;
+    left: 22%;
+    transform: translate(-18%)
+}
+
+.ten {
+    top: 120px;
+    left: 9%;
+   
+}
+
+.arrows {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: rgb(78, 103, 112);
+    border-radius: 50%;
+    z-index: 10;
+    bottom: 47%; 
+    left: 50%;
+    transform: translateX(-50%);
+   
+     box-shadow: 3px 3px 3px rgba(0,0,0,.4);
+
+    
+}
+
+.arrows div {
+    position: absolute;
+    width: 10px;
+    height:  170px;
+    right:26px;
+    background: rgb(6, 32, 39);
+    transform-origin: bottom center;
+    
+    bottom: 50%;
+    border-radius: 50% 50% 5px 5px;
+    box-shadow: 3px 3px 3px rgba(27, 34, 54, 0.4);
+}
+
+.arrows .hour {
+    /* transform: rotate(30deg); */
+    height: 100px;
+}
+
+.arrows .minute {
+    /* transform: rotate(130deg) */
+}
+
+.arrows .sec {
+    background: rgb(201, 59, 59);
+    transform: rotate(13deg)
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: rgb(255, 255, 255);
+    color:  rgb(7, 30, 39);
+    position: absolute;
+    border-radius: 50%;
+    top:44%;    
+    right:48%;
+    z-index: 10;
+    transform: translateX();
+    box-shadow: 3px 3px 3px rgba(0,0,0,.4);
+} 
